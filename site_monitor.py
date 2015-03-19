@@ -1,4 +1,8 @@
-#!/usr/bin/python 
+#!python 
+
+'''
+  Monitor a given url and notify the website maintainer if the page fails to load 3 times in one minute.
+'''
 
 import logging
 import time
