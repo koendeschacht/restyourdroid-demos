@@ -6,7 +6,7 @@
 #
 
 
-api_url="http://restyourdroid.com/f/ae4564ss"  # change to the url of your android device
+api_url="http://restyourdroid.com/f/o6fiWwXT"  # change to the url of your android device
 
 
 api_request="/camera?binary=true&width=1024"
@@ -30,5 +30,5 @@ echo "Capturing images, press ctrl-c to stop capturing images and encode them in
 while true  
   do curl $api_url$api_request > timelapse/img_`date +%s`.jpg -s ; 
   echo "Captured image"
-  sleep 1 ; 
+  sleep 2 ; 
 done 
